@@ -1,0 +1,23 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+langchain = "*"
+langchain-community = "*"
+langchain-ollama = "*"
+langchain-experimental = "*"
+neo4j = "*"
+tiktoken = "*"
+yfiles-jupyter-graphs = "*"
+python-dotenv = "*"
+json-repair = "*"
+langchain-openai = "*"
+langchain-core = "*"
+jupyter = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.12"
